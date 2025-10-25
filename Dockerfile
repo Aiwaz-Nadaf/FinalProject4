@@ -16,4 +16,4 @@ ENV PORT=8080
 
 # Update this line if your filename or app variable is different:
 # For app.py with `app = Flask(__name__)` -> use app:app
-CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:8080", "--workers", "2"]
+CMD ["gunicorn", "Final Project.zzzz.app:app", "--bind", "0.0.0.0:8080", "--workers", "2"]
