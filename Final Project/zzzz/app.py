@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from bson import ObjectId
 from werkzeug.utils import secure_filename
 from math import radians, sin, cos, sqrt, atan2, asin
-from datetime import datetime, timedelta, UTC
+from datetime import datetime, timedelta, timezone
 from functools import wraps
 import json
 from config import Config
