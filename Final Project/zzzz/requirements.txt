@@ -19,3 +19,4 @@ pytz==2025.1
 fastapi==0.115.0
 uvicorn==0.30.6
 twilio==9.3.3
+pywhatkit==5.4.0
